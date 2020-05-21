@@ -1,13 +1,15 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(NULL);
     long long num;
     cin >> num;
     cout << num <<" ";
-    while(n!=1)
+    while(num!=1)
     {
         if(num%2==0)
         {
